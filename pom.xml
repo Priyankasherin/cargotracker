@@ -225,6 +225,19 @@
                         </configuration>
                     </plugin>
                 </plugins>
+                      <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Repository</name>
+            <url>http://http://13.233.231.31:8081/repository/test_repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
             </build>
         </profile>
     </profiles>
